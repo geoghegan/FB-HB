@@ -5,20 +5,25 @@ A TamperMonkey / GreaseMonkey / UserScript script that posts happy birthday to y
 # Configuration
 By default, everyone will get the message defined in `normal_friends_message`.
 
-
+<p>
 You can add close friends to the `var close_friends_list = [];` or using the example of `add_close_friend_uid("my.better.half");`. Close friends get a different message, defined in `var close_friends_message`.
 
-
+<p>
 You can add people to an ignore list, as well, defined in `var ignore_friends_list`.
+
+<p>
+The username to put into the list is the person's facebook username - e.g. https://facebook.com/my.better.half
 
 # Why?
 Because I hate social interaction with people and I believe that birthdays only exist because the calendar is a man-made construct. Time, however, will kill us all.
 
 # Version 3!?
 Yeah. 
-
+<p>
 
 Version 1 was back when Facebook had RSS feeds - it was simple enough to pull data from the RSS feeds, even if it was in XML.
+
+<p>
 Version 2 used the Facebook Graph API v2.0, which was deco'd on 2016-08-7. This was a nice, elegant, way of doing it.
 
 
